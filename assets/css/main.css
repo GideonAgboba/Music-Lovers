@@ -1,0 +1,213 @@
+/* MOHMUG & MR GIDEON'S CSS*/
+body{
+	font-family: sans-serif;
+	margin: 0px; 
+	padding: 0px; 
+}
+.navbar{
+	/*height: 50px;*/
+	background-color: #fff;
+	width: 100%;
+	padding: 20;
+	margin:0;
+	color: #000;
+	box-shadow: 0px 1px 10px #000;
+	position: fixed;
+	top:0px;
+	z-index: 999999;
+}
+.navbar li,ul {
+	text-align: right;
+	display: inline;
+	margin: 5px;
+	font-size: 1em;
+	color: #000;
+}
+.navbar a{
+	list-style: none;
+	color: #000;
+	text-decoration: none;
+
+}
+.navbartitle img{
+	width: 25px;
+	height: 25px;
+	/*border-radius: 25px;*/
+	/*box-shadow: 0px 1px 10px #000;*/
+	margin-right: 5px;
+}
+.navbar a:hover{
+	font-size: 1.5em;
+}
+.navbartitle {
+	font-weight: bold;
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+.contact {
+	text-align: right;
+	float: right;
+	margin-right: 4em;
+	margin-top: 0.5em;
+
+}
+.red{
+	background: red !important;
+}
+.firstcontainer {
+	height: 75vh;
+	background-attachment: fixed !important;
+	background: linear-gradient(rgba(0.0,0.0,0.0,0.9),rgba(0.0,0.0,0.0,0.9),rgba(0.0,0.0,0.0,0.9)), url(../images/6.jpg);
+	background-position:center;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+.firstcontainer-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.firstcontainer-content a{
+	background: #fff;
+	color: #000;
+	padding: 1rem 7rem;
+	text-decoration: none;
+}
+.secondcontainer{
+	/*background: red;*/
+	height: 100vh;
+}
+.secondcontainer img{
+
+}
+.playlist {
+	/*display: inline-block;*/
+	background: white;
+	columns: 2;
+	margin: 0px;
+	padding: 0px;
+	height: 60vh;
+	color: #fff;
+}
+.playlistinfo {
+	/*background: linear-gradient(rgba(0.0,0.0,0.0,0.9),rgba(0.0,0.0,0.0,0.9),rgba(0.0,0.0,0.0,0.9)), url(../images/Scorpion.jpg);*/
+	background-position:center;
+	background-size: cover;
+	height: 100%;
+	display: inline-block;
+	overflow-y: auto;
+	text-align: center;
+	color: #000;
+	/*padding: 10px;*/ 		  		
+}
+.playlistitems {
+	height: 100%;
+	/*background: #fff;*/
+	color: #fff;
+	text-align: center;background: linear-gradient(rgba(0.0,0.0,0.0,0.9),rgba(0.0,0.0,0.0,0.9),rgba(0.0,0.0,0.0,0.9)), url(../images/Scorpion.jpg);
+	background-position:center;
+	background-size: cover;
+}
+.text-center{
+	text-align: center;
+}
+.foot {
+	position: relative;
+	padding: 20px;
+	text-align: center;
+	box-shadow: 0px -1px 10px #000;
+	margin-top:1em;
+}
+.secondcontainer img{
+	height:100%;
+	width: 100%;
+	/*padding: 1%;*/
+}
+.col{
+	columns: 2;
+}
+.fourthsection{
+	padding-top: 5em;
+	text-align: center;
+}
+.fourthsection h3{
+
+}
+.mailform{
+	display: inline-flex;
+	width: 70%;
+}
+.mailform input{
+	padding: 20px;
+	width: 80%;
+	border-left: 1px solid #000;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-right: 0px solid transparent;
+}
+.mailform button{
+	padding: 15px;
+	width: 20%;
+	background: #000;
+	border-right: 1px solid #000;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-left: 0px solid transparent;
+}
+.mailform img{
+	width: 50px;
+	height: 50px;
+}
+
+.searchform{
+	display: inline-flex;
+	width: 80%;
+}
+.searchform input{
+	padding: 20px;
+	width: 80%;
+	border-left: 1px solid #000;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-right: 0px solid transparent;
+}
+.searchform button{
+	padding: 15px;
+	width: 20%;
+	background: #000;
+	border-right: 1px solid #000;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-left: 0px solid transparent;
+}
+.searchform img{
+	width: 50px;
+	height: 50px;
+}
+.col3{
+	columns: 3;
+	display: inline-flex;
+}
+.steps{
+	padding: 10px;
+}
+.steps iframe{
+	border-style: none;
+	height: 50vh;
+}
+.steps .stepscontents{
+	padding: 10px;
+	text-align: center;
+}
+.steps .stepscontents img{
+	width: 200px;
+	height: 200px;
+}
+.p-2{
+	width: 65%;
+	margin: 0 auto;
+	float: none;
+	word-spacing: 2px;
+}
